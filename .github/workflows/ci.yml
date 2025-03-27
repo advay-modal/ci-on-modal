@@ -25,5 +25,5 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest -vs
+          pytest -vs ./tests
         working-directory: /root
