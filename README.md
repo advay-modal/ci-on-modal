@@ -8,7 +8,7 @@ and run it using modal sandboxes as self hosted runners
 To do this 
 
 - Create a personal access token in github
-- Set the personal access token in a modal [https://modal.com/docs/guide/secrets#secrets](secret) named `github-secret`
+- Set the personal access token in a modal [secret](https://modal.com/docs/guide/secrets#secrets) named `github-secret`
 - `pip install modal`
 - `modal deploy modal_server.py`
 
