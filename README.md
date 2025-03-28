@@ -11,5 +11,6 @@ To do this
 - Set the personal access token in a modal [secret](https://modal.com/docs/guide/secrets#secrets) named `github-secret`
 - `pip install modal`
 - `modal deploy modal_server.py`
+- Set the url for the server to the webhook for workflow_job in the github ui
 
 Then trigger CI runs and modal will handle all the compute scaling.
