@@ -1,11 +1,9 @@
-modal_server.py
 import modal
 import inspect
 
 app = modal.App("ci-server")
 
 def setup_runner():
-    github_token = ""
 
     import requests
     import subprocess
