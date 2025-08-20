@@ -101,14 +101,3 @@ class ModalServer:
                 sb = modal.Sandbox.from_id(object_id)
                 sb.terminate()
                 del self.job_id_to_sandbox_id[request_data["workflow_job"]["id"]]
-
-            
-    
-
-
-
-
-
-
-
-# 
